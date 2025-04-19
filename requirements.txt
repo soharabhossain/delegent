@@ -1,0 +1,6 @@
+openai==0.28
+groq
+google-generativeai
+python-dotenv
+instructor
+colorama

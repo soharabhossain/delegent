@@ -1,0 +1,15 @@
+[project]
+name = "delegent"
+version = "0.1.0"
+description = "Delegent is a modular and extensible framework for intelligent task decomposition and delegation in multi-agent workflows. "
+authors = [
+    { name="Soharab Hossain Shaikh", 
+      email="soharab.hossain@gmail.com" 
+    }
+]
+requires-python = ">=3.7"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

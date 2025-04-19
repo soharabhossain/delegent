@@ -1,0 +1,6 @@
+2025-04-19 16:28:00,364 - INFO - Task decomposition started.
+2025-04-19 16:28:00,365 - WARNING - No matching agent found.
+2025-04-19 16:28:00,366 - ERROR - Execution failed for subtask T101_3
+2025-04-19 16:39:15,545 - INFO - Task decomposition started.
+2025-04-19 16:39:15,546 - WARNING - No matching agent found.
+2025-04-19 16:39:15,546 - ERROR - Execution failed for subtask T101_3
