@@ -75,12 +75,14 @@ pip install -r requirements.txt
 
 ```
 
+---
+
 ## 🔧 Usage
-----------------------------------------------------------------------------------------
+---
  - Update your agents profiles in the "agent_profiles.py" file under "workspace/agents"
  -
    Agents Profiles is a list of dictionaries containing the agent information. 
-   e.g.,
+   > e.g.,
    AGENT_PROFILES = [
                       {'id': 'a1', 'role': 'researcher', 'skills': ['research', 'analysis']},
                       {'id': 'a2', 'role': 'writer', 'skills': ['writing', 'storytelling']},
@@ -89,12 +91,13 @@ pip install -r requirements.txt
  - Put your logging preference in the "config.py" file under "workspace/config"
  > If you wish to generate the logging information, set
    ENABLE_LOGGING = True
- > Either set the file path to store the log or leave it unchanged as it is. 
+ - Either set the file path to store the log or leave it unchanged as it is. 
    > LOG_FILE_PATH = "./workspace/log/system_log.txt"
 
  - Logging information will be directed to the "system_log.txt" file under "workspace/log"
 
-----------------------------------------------------------------------------------------
+---
+
 
 Example-1:
 ```bash
@@ -131,6 +134,7 @@ for sid, aid in assignments.items():
     print(f"Subtask {sid} -> Agent {aid if aid else 'Unassigned'}")
 
 ```
+---
 
 Example-2:
 ```bash
@@ -169,12 +173,15 @@ for tid, aid in assignments.items():
 
 ```
 
+---
 
 ## 🔌 Supported LLMs & Tools
 - OpenAI GPT-4 / GPT-3.5
 - Claude, Gemini (via API)
 - Custom tool usage via Tool Calling or Function APIs
 - Web search, code execution, PDF parsing, and more (plugin-ready)
+
+---
 
 
 ## 📚 Documentation
@@ -183,15 +190,20 @@ for tid, aid in assignments.items():
  > Source code docstrings
  > Issues and Discussions tab for Q&A
 
+---
 
 ## 🧠 Credits 
  - Delegent is developed and maintained by Dr. Soharab Hossain Shaikh, Associate Professor, AI Researcher and Enthusiast.
 
+---
 
 ## 📜 License
 ### MIT License. See LICENSE for details.
+
+---
 
 ## ⭐️ Contribute
  - Pull requests, feature suggestions, and feedback are welcome!
  - Please open an issue or join the discussions to get started.
 
+---
