@@ -177,7 +177,7 @@ for tid, aid in assignments.items():
 
 ## 🔌 Supported LLMs & Tools
 - OpenAI GPT-4 / GPT-3.5
-- Claude, Gemini (via API)
+- Groq, Claude, Gemini (via API)
 - Custom tool usage via Tool Calling or Function APIs
 - Web search, code execution, PDF parsing, and more (plugin-ready)
 
