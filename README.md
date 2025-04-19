@@ -38,7 +38,10 @@ delegent/
         |-- execution
         |-- tasks
 
-├── data/                 # Agent registry and definitions
+├── workspace             # User workspace
+             ├── agents   # User's agent profiles and registry
+             ├── config   # User's logging configuration settings/preference
+             ├── log      # Path to the log file            
 ├── llm/                  # Definitions of LLM providers
 ├── test/                 # Test code
 ├── utils/                # Utility functions, loader, logger, etc.
@@ -58,6 +61,16 @@ delegent/
 
 git clone https://github.com/soharabhossain/delegent.git
 cd delegent
+```
+- Create a virtual environment
+```bash
+python -m venv venv
+```
+- Activate the virtual environment
+```bash
+venv/Scripts/activate
+```
+```bash
 pip install -r requirements.txt
 
 ```
