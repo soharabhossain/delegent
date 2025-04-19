@@ -76,6 +76,23 @@ pip install -r requirements.txt
 ```
 
 ## 🔧 Usage
+
+ - Update your agents profiles in the "agent_profiles.py" file under "workspace/agents"
+   Agents Profiles is a list of dictionaries containing the agent information. e.g.,
+   AGENT_PROFILES = [
+                      {'id': 'a1', 'role': 'researcher', 'skills': ['research', 'analysis']},
+                      {'id': 'a2', 'role': 'writer', 'skills': ['writing', 'storytelling']},
+                    ] 
+
+ - Put your logging preference in the "config.py" file under "workspace/config"
+  -- If you wish to generate the logging information
+    -- ENABLE_LOGGING = True
+    --LOG_FILE_PATH = "./workspace/log/system_log.txt"
+
+ - Logging information will be directed to "system_log.txt" file under "workspace/log"
+
+----------------------------------------------------------------------------------------
+
 Example-1:
 ```bash
 from delegent.core.engines.assignment_engine import RoleBasedAssignmentEngine
