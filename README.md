@@ -56,7 +56,7 @@ delegent/
 
 ```bash
 
-git clone https://github.com/your-username/delegent.git
+git clone https://github.com/soharabhossain/delegent.git
 cd delegent
 pip install -r requirements.txt
 
