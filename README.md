@@ -85,27 +85,27 @@ print(final_output)
 
 
 🔌 Supported LLMs & Tools
-### OpenAI GPT-4 / GPT-3.5
-### Claude, Gemini (via API)
-### Custom tool usage via Tool Calling or Function APIs
-### Web search, code execution, PDF parsing, and more (plugin-ready)
+- OpenAI GPT-4 / GPT-3.5
+- Claude, Gemini (via API)
+- Custom tool usage via Tool Calling or Function APIs
+- Web search, code execution, PDF parsing, and more (plugin-ready)
 
 
 📚 Documentation
-### Coming soon! In the meantime, explore:
+- Coming soon! In the meantime, explore:
  > examples/ folder
  > Source code docstrings
  > Issues and Discussions tab for Q&A
 
 
 🧠 Credits 
-### Delegent is developed and maintained by Dr. Soharab Hossain Shaikh, Associate Professor, AI Researcher and Enthusiast.
+ - Delegent is developed and maintained by Dr. Soharab Hossain Shaikh, Associate Professor, AI Researcher and Enthusiast.
 
 
 📜 License
 ### MIT License. See LICENSE for details.
 
 ⭐️ Contribute
-## Pull requests, feature suggestions, and feedback are welcome!
-### Please open an issue or join the discussions to get started.
+ - Pull requests, feature suggestions, and feedback are welcome!
+ - Please open an issue or join the discussions to get started.
 
