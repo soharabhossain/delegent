@@ -78,7 +78,7 @@ pip install -r requirements.txt
 ---
 
 ## 🔧 Usage
----
+
  - Update your agents profiles in the "agent_profiles.py" file under "workspace/agents"
  -
    Agents Profiles is a list of dictionaries containing the agent information. 
