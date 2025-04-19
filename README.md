@@ -46,7 +46,6 @@ delegent/
 ├── test/                 # Test code
 ├── utils/                # Utility functions, loader, logger, etc.
 ├── workflows/            # Sample workflows and task pipelines (to be added)
-├── config.py             # config for logging
 ├── .env                  # Environment variables (e.g., API keys) & LLM configuration
 ├── requirements.txt      # Dependencies
 ├── examples/             # Example usage scripts
