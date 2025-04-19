@@ -186,9 +186,9 @@ for tid, aid in assignments.items():
 
 ## 📚 Documentation
 - Coming soon! In the meantime, explore:
- > examples/ folder
- > Source code docstrings
- > Issues and Discussions tab for Q&A
+ - examples/ folder contains a few examples.
+ - Source code docstrings
+ - Issues and Discussions tab for Q&A
 
 ---
 
