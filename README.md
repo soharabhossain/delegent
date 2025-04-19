@@ -76,6 +76,7 @@ pip install -r requirements.txt
 ```
 
 ## 🔧 Usage
+Example-1:
 ```bash
 from delegent.core.engines.assignment_engine import RoleBasedAssignmentEngine
 from delegent.core.engines.planner import TaskPlanner
@@ -111,8 +112,8 @@ for sid, aid in assignments.items():
 
 ```
 
+Example-2:
 ```bash
-
 # Task Decomposition and Assignment
 from delegent.core.tasks.task import Task
 from delegent.core.agents.agent import Agent 
@@ -147,7 +148,6 @@ for tid, aid in assignments.items():
     print(Fore.BLUE + Style.BRIGHT + f" ==> {print_agent_info(aid, agents)}" )
 
 ```
-
 
 
 ## 🔌 Supported LLMs & Tools
